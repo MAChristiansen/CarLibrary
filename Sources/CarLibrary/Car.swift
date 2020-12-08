@@ -1,16 +1,16 @@
 import Foundation
 
-struct Car {
+public struct Car {
     
-    var color : String
-    var brand : Brand
+    public var color : String
+    public var brand : Brand
     
-    func start() {
+    public func start() {
         print("Brrrr - your super awesome car is started.")
     }
 }
 
-enum Brand {
+public enum Brand {
     case BMW
     case Audi
     case Skoda
